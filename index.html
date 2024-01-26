@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ar" xml:lang="ar">
+
+</html>
+
+<head>
+    <link rel="icon" type="image/png"
+        href="https://raw.githubusercontent.com/moohamed154/mohamedhamdy/main/MOhamed%20HAmdy.jpg" />
+    <link rel="icon" type="image/png"
+        href="https://raw.githubusercontent.com/moohamed154/mohamedhamdy/main/MOhamed%20HAmdy.jpg" />
+    <meta http-equiv='content-Type' content='text/html; charset=UTF-8' />
+    <meta content='width=device-width, initial-scale=1' name='viewport' />
+
+    <!-- End Wayback Rewrite JS Include -->
+    <title>MOhamed ATef | محمد عاطف</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://kit-pro.fontawesome.com/releases/v5.11.2/css/pro.min.css">
+    <link rel="stylesheet"
+        href="https://web.archive.org/web/20201004060455cs_/https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://moohamed154.github.io/mohamedhamdy/particles.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://moohamed154.github.io/mohamedhamdy/style.css">
+</head>
+
+<body>
+    <!-- END WAYBACK TOOLBAR INSERT -->
+    <div class="home d-flex align-items-center" id="home">
+        <div id="particles-js" class="particles-js"><canvas class="particles-js-canvas-el"
+                style="width: 100%; height: 100%;" width="1903" height="570"></canvas></div>
+        <div class="container">
+            <div class="introduction">
+                <img src="391735325_1034898461038049_2536347978274145715_n.jpg"
+                    alt="MOhamed ATef web developer" class="mb-4 intro-profile-picture">
+                <h1 class="mb-2 mt-0">MOhamed ATef</h1>
+                <span>Software Engineer</span>
+                <ul class="social-icons light list-inline mb-0 mt-4">
+                    <li class="list-inline-item"><a target="_NEW" href="https://www.facebook.com/VD806"><i
+                                class="fab fa-facebook-f"></i><span>MOhamed ATef</span></a></li>
+                    <li class="list-inline-item"><a target="_NEW" href="https://www.instagram.com/mo_atef_offical10/"><i
+                                class="fab fa-instagram"></i><span>MOhamed ATef</span></a></li>
+                    <li class="list-inline-item"><a target="_NEW" href="https://twitter.com/A3ToF179899"><i
+                                class="fab fa-twitter"></i><span>MOhamed ATef</span></a></li>
+                    <li class="list-inline-item"><a target="_NEW" href="https://www.linkedin.com/in/mohamed-atef-241305298/"><i
+                                class="fab fa-linkedin"></i><span>MOhamed ATef</span></a></li>
+
+                </ul>
+                <div class="mt-4">
+                    <a href="https://api.whatsapp.com/send?phone=201022586786" class="btn btn-default" target="_blank">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        particlesJS("particles-js", {
+            particles: {
+                number: { value: 80, density: { enable: true, value_area: 800 } },
+                color: { value: "#ffffff" },
+                shape: {
+                    type: "circle",
+                    stroke: { width: 0, color: "#000000" },
+                    polygon: { nb_sides: 5 },
+                    image: { src: "img/github.svg", width: 100, height: 100 }
+                },
+                opacity: {
+                    value: 0.5,
+                    random: false,
+                    anim: { enable: false, speed: 1, opacity_min: 0.1, sync: false }
+                },
+                size: {
+                    value: 3,
+                    random: true,
+                    anim: { enable: false, speed: 40, size_min: 0.1, sync: false }
+                },
+                line_linked: {
+                    enable: true,
+                    distance: 150,
+                    color: "#ffffff",
+                    opacity: 0.2,
+                    width: 3
+                },
+                move: {
+                    enable: true,
+                    speed: 6,
+                    direction: "none",
+                    random: false,
+                    straight: false,
+                    out_mode: "out",
+                    bounce: false,
+                    attract: { enable: false, rotateX: 600, rotateY: 1200 }
+                }
+            },
+            interactivity: {
+                detect_on: "canvas",
+                events: {
+                    onhover: { enable: true, mode: "repulse" },
+                    onclick: { enable: true, mode: "push" },
+                    resize: true
+                },
+                modes: {
+                    grab: { distance: 600, line_linked: { opacity: 1 } },
+                    bubble: { distance: 600, size: 40, duration: 2, opacity: 8, speed: 3 },
+                    repulse: { distance: 600, duration: 0.4 },
+                    push: { particles_nb: 6 },
+                    remove: { particles_nb: 2 }
+                }
+            },
+            retina_detect: true
+        });
+        jQuery(document).ready(function ($) {
+            $(".navbar-dark .navbar-nav .nav-link").click(function (event) {
+                event.preventDefault();
+                $id = $(this).attr("href");
+                $(".nav-item a,.nav-item").removeClass('active');
+                $(this).addClass('active');
+                $("body,html").animate({
+                    scrollTop: $($id).offset().top - 100,
+                }, 500);
+            });
+        });
+    </script>
+    <div class="footer">
+        <div class="rights">MOhamed ATef © 2021</div>
+    </div>
+</body>
